@@ -22,6 +22,11 @@ body[id="homepage"] {
   text-transform: uppercase;
 }
 
+.img-center{
+  display:block;
+  margin:auto;
+}
+
 /* ===== Navbar ===== */
 .navbar-inverse {
   background-color: rgb(40,40,40);
@@ -120,6 +125,28 @@ main #homepageButton:hover {
             
 }
 
+.row div a{
+  color:black;
+}
+
+.row div a:hover{
+  text-decoration: none;
+}
+
+.container main .fiche h1{
+  text-align: center;
+}
+
+.container main .fiche{
+  text-align: left;
+}
+
+.container main .fiche ul li{
+  list-style: none;
+}
+.container main .fiche ul{
+  padding-left: 0px;
+}
 /* ===== Footer ===== */
 footer {
   position: absolute;
