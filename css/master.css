@@ -24,7 +24,7 @@ body[id="homepage"] {
 
 /* ===== Navbar ===== */
 .navbar-inverse {
-  background-color: transparent;
+  background-color: rgb(40,40,40);
   border-color: transparent;
 }
 .navbar-header img {
@@ -40,7 +40,7 @@ nav ul {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color : rgb(120,120,120);
+  color : white;
   font-size: 1.3em;
   text-transform: uppercase;
 }
@@ -71,6 +71,11 @@ main #homepageButton:hover {
   color: white;
 }
 
+.selection
+{
+  margin-top: 30px;
+}
+
 .bootstrap-select>.dropdown-toggle.bs-placeholder,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
@@ -80,12 +85,39 @@ main #homepageButton:hover {
 
 #musique .row
 {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 40px auto 20px auto; 
+}
+
+#musique .row div{
+  margin-left: 19px;
 }
 
 #musique .row img{
   margin: 5px;
+  width:150px;
+}
+
+.row div{
+  margin: 10px;
+}
+
+.row div p{
+  text-align: center;
+}
+
+.lighten img {
+    display: block;
+    
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+.lighten:hover img {
+    opacity: 0.7;
+            
 }
 
 /* ===== Footer ===== */
