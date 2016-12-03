@@ -1,3 +1,6 @@
+/* =========================================================== */
+/* ==================== ÉLÉMENTS GÉNÉRAUX ==================== */
+/* =========================================================== */
 html {
   height: 100%;
 }
@@ -8,6 +11,7 @@ body{
   background-color: rgb(245,245,245);
 }
 
+/* Spécifique à la page d'accueil */
 body[id="homepage"] {
   background: url("../src/img/wallpaper.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -27,7 +31,9 @@ body[id="homepage"] {
   margin:auto;
 }
 
-/* ===== Navbar ===== */
+/* =========================================================== */
+/* ========================= NAVBAR ========================== */
+/* =========================================================== */
 .navbar-inverse {
   background-color: rgb(40,40,40);
   border-color: transparent;
@@ -60,7 +66,9 @@ nav ul {
   top: 24px;
 }
 
-/* ===== Main ===== */
+/* =========================================================== */
+/* ========= MAIN - CONTENU PRINCIPAL DE CHAQUE PAGE ========= */
+/* =========================================================== */
 main {
   padding: 40px 15px;
   text-align: center;
@@ -76,8 +84,8 @@ main #homepageButton:hover {
   color: white;
 }
 
-.selection
-{
+/* Filtres */
+.selection{
   margin-top: 30px;
 }
 
@@ -88,13 +96,9 @@ main #homepageButton:hover {
   color: black;
 }
 
-#musique .row
-{
+/* Musique */
+#musique .row{
   margin: 40px auto 20px auto; 
-}
-
-#musique .row div{
-  margin-left: 19px;
 }
 
 #musique .row img{
@@ -102,9 +106,30 @@ main #homepageButton:hover {
   width:150px;
 }
 
-.row div{
-  margin: 10px;
+#musique .row{
+  width: 1100px;
+  margin-left: auto; 
+  margin-right: auto;
+
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
 }
+
+#musique .row a{
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
 
 .row div p{
   text-align: center;
@@ -133,6 +158,7 @@ main #homepageButton:hover {
   text-decoration: none;
 }
 
+/* Fiche produit */
 .container main .fiche h1{
   text-align: center;
 }
@@ -147,7 +173,10 @@ main #homepageButton:hover {
 .container main .fiche ul{
   padding-left: 0px;
 }
-/* ===== Footer ===== */
+
+/* =========================================================== */
+/* ========================= FOOTER ========================== */
+/* =========================================================== */
 footer {
   position: absolute;
   bottom: 0px;
